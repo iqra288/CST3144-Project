@@ -1,0 +1,26 @@
+{
+  "type": "Compass Connections",
+  "version": {
+    "$numberInt": "1"
+  },
+  "connections": [
+    {
+      "id": "a30d8400-f67a-4e4f-b3af-04a9ff78acb1",
+      "lastUsed": {
+        "$date": {
+          "$numberLong": "1744215111986"
+        }
+      },
+      "favorite": {
+        "name": "cluster0.ih6a4yu.mongodb.net"
+      },
+      "savedConnectionType": "recent",
+      "connectionOptions": {
+        "connectionString": "mongodb+srv://iqra:1234@cluster0.ih6a4yu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+        "oidc": {
+          "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+        }
+      }
+    }
+  ]
+}
