@@ -1,0 +1,4 @@
+Backend GitHub: https://github.com/iqra288/CST3144-Project/tree/main/backend
+Frontend GitHub : https://github.com/iqra288/CST3144-Project/tree/main/frontend
+GitHub Pages link : https://github.com/iqra288/CST3144-Project
+Render Link: https://cst3144-project-1.onrender.com

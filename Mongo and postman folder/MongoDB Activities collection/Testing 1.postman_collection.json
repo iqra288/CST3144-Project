@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "c9056c27-504b-43cb-a902-0525cbfbd5d2",
+		"name": "Testing 1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43312228"
+	},
+	"item": [
+		{
+			"name": "Initial request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030",
+					"host": [
+						"localhost"
+					],
+					"port": "3030"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/collection/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"collection",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"_id\": \"67dd16045a5471801061b8b3\",\r\n        \"id\": 118,\r\n        \"title\": \"Class test\",\r\n        \"subject\": \"Yoga\",\r\n        \"location\": \"Dubai\",\r\n        \"price\": 120,\r\n        \"image\": \"images/Yoga-class.jpg\",\r\n        \"AvailableInventory\": 15\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3030/collection/products",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"collection",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product from ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3030/collection/products/67dd16045a5471801061b8b3",
+					"host": [
+						"localhost"
+					],
+					"port": "3030",
+					"path": [
+						"collection",
+						"products",
+						"67dd16045a5471801061b8b3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

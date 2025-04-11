@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "67f6a5d30258f205b7737df7"
+  },
+  "firstName": "iqra",
+  "lastName": "qas",
+  "address": "rwrwe",
+  "city": "rwerew",
+  "state": "California",
+  "zip": 42424,
+  "phone": 4242,
+  "gift": true,
+  "method": "Home",
+  "cart": [
+    {
+      "_id": "67f69f1b8c22a30c3dfa677c",
+      "id": 2,
+      "title": "Art Club",
+      "subject": "Art",
+      "location": "Dubai",
+      "price": 80,
+      "image": "images/art.jpg",
+      "AvailableInventory": 14,
+      "rating": 3
+    }
+  ],
+  "date": {
+    "$date": "2025-04-09T16:52:35.058Z"
+  }
+}]
